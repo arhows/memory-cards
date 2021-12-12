@@ -1,0 +1,24 @@
+.memory-game {
+  background-color: #5d5d5d;
+  padding: 2rem 0;
+  z-index: 5;
+}
+
+.memory-game .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.memory-game h1 {
+  color: #eff1f3;
+}
+
+.grid-cards {
+  min-width: 100%;
+  margin: 10rem auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20%, 220px));
+  justify-content: center;
+  gap: 1rem;
+}
